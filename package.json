@@ -1,0 +1,27 @@
+{
+  "name": "pokemon-titanium-web-app",
+  "version": "1.0.0",
+  "description": "In browser pokemon game",
+  "scripts": {
+    "dev": "PORT=3000 NODE_ENV=development webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pokemon"
+  ],
+  "author": "Will Dengler",
+  "license": "ISC",
+  "dependencies": {
+    "pixi.js": "^6.5.3"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "path": "^0.12.7",
+    "ts-loader": "^9.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.0",
+    "webpack-merge": "^5.8.0"
+  }
+}
